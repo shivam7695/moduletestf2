@@ -1,0 +1,181 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    
+   
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+.navbar{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+#navbarNav{
+    margin-inline: 20px;
+}
+.navbar-nav{
+    margin-left: 80%;
+    
+}
+.nav-text:hover{
+ color: greenyellow;
+}
+#images{
+    width: 85%;
+    height: 50vh;
+    margin-left: 5vw;
+} 
+
+.search {
+    margin-top: 10px;
+}
+#searchInput{
+    width: 85%;
+    height: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f3f3f3;
+}
+
+.filter {
+  
+    margin: 20px;
+}
+#showAllBtn{
+    width: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: orange;
+    border: none;
+}
+
+#showVegBtn{
+    width: 150px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color:#c4d600;
+    border: none;
+
+}
+
+#showNonVegBtn{
+    width: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color:#dc582a;
+    border: none;
+
+}
+/* Recipe cards */
+#recipesContainer{
+    margin-left: 20%;
+
+}
+.recipe-card {
+   border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 10px 30px rgb(190, 187, 187);
+    display: inline-block;
+    width: 300px;
+    height: 58vh;
+    text-align: center;
+}
+.recipe-card>h2{
+    
+}
+.recipe-card > img {
+    max-width: 85%;
+    height: 28vh;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Like button */
+.like-button {
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+}
+main{
+    margin: 15px;
+}
+.footer-text{
+  
+    width: 25%;
+}
+.email{
+    border: none;
+}
+.footer-2{
+    width: 25%;
+}
+.email-bar{
+    border: 1px solid rgb(146, 142, 142);
+    width: 83%;
+}
+.email-bar>button{
+   background-color: #509E2F;
+   color: white;
+   border-radius: 5px;
+}
+table>tr{
+    padding: 20px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social>img{
+    
+   margin: 5px;
+    border-radius: 50%; 
+    background-color: #000000;
+    padding: 10px;
+    width: 3vw;
+    height: 5vh;
+}
+.social>img:hover{
+    background-color: #96ed00;
+    width: 4vw; 
+    height: 6vh;
+}
+
+/* Mobile drawer */
+#mobileDrawer {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: white;
+    transition: left 0.3s;
+    overflow-y: auto;
+}
+
+#mobileDrawer.opened {
+    left: 0;
+}
+
+/* Additional styling as needed */
